@@ -7,8 +7,8 @@ import (
 	"gorm.io/gorm"
 )
 
-var DSM = "host=localhost user=postgres password=123456 dbname=gorm port=5432"
 var DB *gorm.DB
+var DSM = "host=localhost user=postgres password=123456 dbname=gorm port=5432"
 
 func DBConnect() {
 	var error error

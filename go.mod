@@ -2,9 +2,9 @@ module github.com/rpccode/pg-api-task
 
 go 1.19
 
-require github.com/gorilla/mux v1.8.0
 
 require (
+	github.com/gorilla/mux v1.8.0
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.13.0 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
